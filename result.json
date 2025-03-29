@@ -1,0 +1,154 @@
+{
+    "id": "e3f137c4-5a0d-4fae-ba60-b4936a58d025",
+    "created_at": "2025-02-26T04:57:07Z",
+    "update_at": "2025-02-26T05:00:35Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2025-02-26T04:58:45Z",
+    "end_time": "2025-02-26T05:00:35Z",
+    "summary": {
+        "total_time": 110000000000,
+        "execution_time": 110000000000,
+        "total_tasks": 3,
+        "build_time_consumed": 166000000000,
+        "jobTestExecutionTime": "8s",
+        "failed_tasks": 0,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            },
+            "scenario": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            }
+        },
+        "status": "completed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e3f137c4-5a0d-4fae-ba60-b4936a58d025"
+    },
+    "tasks": [
+        {
+            "id": "46e05eeb-205a-47c2-b14f-1cd8e3c968d4",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-02-26T04:58:44Z",
+            "update_at": "2025-02-26T04:59:40Z",
+            "start_time": "2025-02-26T04:58:45Z",
+            "end_time": "2025-02-26T04:59:40Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "0c93cc4c-db11-4089-9c71-fd60ed4d0bca",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test tests/test_3.spec.js",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-02-26T04:59:15Z",
+                    "started_at": "2025-02-26T04:59:16Z",
+                    "updated_at": "2025-02-26T04:59:38Z",
+                    "order": 3,
+                    "task_number": 1
+                },
+                {
+                    "id": "7a9a237e-179f-4950-8187-f1fd9d5b8435",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-26T04:58:46Z",
+                    "started_at": "2025-02-26T04:58:46Z",
+                    "updated_at": "2025-02-26T04:59:15Z",
+                    "order": 2,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "7edcbdf8-bb95-4beb-a612-4a0158c199fb",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-02-26T04:58:44Z",
+            "update_at": "2025-02-26T04:59:42Z",
+            "start_time": "2025-02-26T04:58:45Z",
+            "end_time": "2025-02-26T04:59:42Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "4dde833e-2bf7-4ce2-99ca-51c6426492dc",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-26T04:58:46Z",
+                    "started_at": "2025-02-26T04:58:46Z",
+                    "updated_at": "2025-02-26T04:59:16Z",
+                    "order": 2,
+                    "task_number": 2
+                },
+                {
+                    "id": "5389664a-73f4-47bb-913c-304275c82cc3",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test tests/test_2.spec.js",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-02-26T04:59:16Z",
+                    "started_at": "2025-02-26T04:59:18Z",
+                    "updated_at": "2025-02-26T04:59:40Z",
+                    "order": 3,
+                    "task_number": 2
+                }
+            ]
+        },
+        {
+            "id": "e9e2aa41-e191-4e6c-b8ac-e483f6cd4a87",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-02-26T04:58:44Z",
+            "update_at": "2025-02-26T05:00:35Z",
+            "start_time": "2025-02-26T04:59:41Z",
+            "end_time": "2025-02-26T05:00:35Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "bdfe3cc3-b72c-4c66-8ce2-a811a5ff78cc",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test tests/test_1.spec.js",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-02-26T05:00:11Z",
+                    "started_at": "2025-02-26T05:00:13Z",
+                    "updated_at": "2025-02-26T05:00:33Z",
+                    "order": 3,
+                    "task_number": 3
+                },
+                {
+                    "id": "e0579f40-b250-432e-8e8f-1c010eb25b80",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-26T04:59:41Z",
+                    "started_at": "2025-02-26T04:59:41Z",
+                    "updated_at": "2025-02-26T05:00:11Z",
+                    "order": 2,
+                    "task_number": 3
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}
